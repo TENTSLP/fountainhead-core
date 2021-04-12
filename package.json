@@ -2,6 +2,10 @@
   "name": "fountainhead-core",
   "version": "0.0.12",
   "description": "Fountainhead suite: bcode, bigjq, tna, bitqueryd, bitsocketd, and slp variants",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TENTSLP/fountainhead-core"
+  },
   "main": "index.js",
   "scripts": {
     "postinstall": "./run.sh"
@@ -12,7 +16,7 @@
     "async": "^2.6.2",
     "bignumber.js": "^8.1.1",
     "bitcoind-rpc": "^0.7.2",
-    "bitcore-lib-cash": "^8.6.0",
+    "bitcore-lib-cash": "TENTSLP/bitcore-lib-tent",
     "child_process": "^1.0.2",
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
@@ -20,11 +24,11 @@
     "ip": "^1.1.5",
     "json-pointer": "^0.6.0",
     "mingo": "^2.2.4",
-    "mongodb": "^3.1.4",
+    "mongodb": "^3.6.0",
     "node-jq": "^1.6.0",
     "sinon": "^7.3.2",
     "traverse": "^0.6.6",
-    "zeromq": "^5.1.0"
+    "zeromq": "^5.2.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
